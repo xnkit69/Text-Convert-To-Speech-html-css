@@ -1,0 +1,57 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+#text{
+    width: 550px;
+    height: 250px;
+    padding:10px;
+    outline:none;
+    background-color:#3b3759;
+    color:white;
+    resize: none;
+    font-size: 18px;
+    box-shadow: inset -10px -10px 15px rgba(0,0,0,0.5),
+    inset 10px 10px 15px rgba(0,0,0,0.5);
+    border-color:white;
+
+
+}
+#SpeechBtn{
+    background-color:#833ab4;
+    margin:10px 0px;
+    height: 40px;
+    font-size: 20px;
+    color:white;
+    border:none;
+    border-radius: 40px;
+}
+
+/****background color*********/
+.color1,.color2,.color3,.color4{
+    width: 25%;
+    height: 100%;
+    box-shadow: -10px -10px 15px rgba(0,0,0,0.2);
+}
+.color1{
+    background: #4285f4;
+}
+.color2{
+    background: #34a853;
+}
+.color3{
+    background: #fbbc05;
+}
+.color4{
+    background: #ea4335;
+}
